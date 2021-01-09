@@ -1,7 +1,7 @@
 //#region Imports
 
 const axios = require("axios").default; // Used for network calls
-require("dotenv").config(); // Used to load environmental variables
+require("dotenv").config({ path: `${__dirname}/.env` }); // Used to load environmental variables
 
 //#endregion
 
